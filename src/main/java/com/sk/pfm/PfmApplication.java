@@ -15,7 +15,7 @@ public class PfmApplication {
 
     @GetMapping("/greet")
     public String helloGreeting() {
-        return "Hello REST";
+        return "Hello REST World";
     }
 
 }
